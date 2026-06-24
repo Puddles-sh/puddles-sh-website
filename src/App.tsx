@@ -50,18 +50,6 @@ export default function App() {
       <Nav onOpenTerminal={() => setIsTerminalOpen(true)} />
       <main>
         <Hero />
-        <Section id="what" eyebrow="What is Puddles" title="Seven agents. One local runtime.">
-          <div className="copy-columns">
-            <p>
-              Puddles is a seven-agent orchestration framework that runs entirely on your hardware.
-              It parses IT requests, retrieves relevant context, audits proposed actions for accuracy,
-              scores confidence and risk, generates a PowerShell or automation script, gets your
-              approval via Telegram, and executes - with a full audit trail and a revert on every
-              action.
-            </p>
-            <p>No cloud. No third-party AI processing your client data. No black box.</p>
-          </div>
-        </Section>
         <Section id="problem" eyebrow="The Problem It Solves" title="Delegate the repeatable work without losing control.">
           <div className="copy-columns">
             <p>
@@ -75,6 +63,18 @@ export default function App() {
               a human before it executes.
             </p>
             <p>The goal isn't to replace the engineer. It's to eliminate the 50-hour week.</p>
+          </div>
+        </Section>
+        <Section id="what" eyebrow="What is Puddles" title="Seven agents. One local runtime.">
+          <div className="copy-columns">
+            <p>
+              Puddles is a seven-agent orchestration framework that runs entirely on your hardware.
+              It parses IT requests, retrieves relevant context, audits proposed actions for accuracy,
+              scores confidence and risk, generates a PowerShell or automation script, gets your
+              approval via Telegram, and executes - with a full audit trail and a revert on every
+              action.
+            </p>
+            <p>No cloud. No third-party AI processing your client data. No black box.</p>
           </div>
         </Section>
         <Section id="how" eyebrow="How It Works" title="A visible path from request to revert.">

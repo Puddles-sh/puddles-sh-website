@@ -1,6 +1,6 @@
 const navItems = [
-  { id: "what", label: "What" },
   { id: "problem", label: "Problem" },
+  { id: "what", label: "What" },
   { id: "how", label: "How" },
   { id: "features", label: "Features" },
   { id: "roadmap", label: "Roadmap" },
