@@ -153,6 +153,8 @@ export function Terminal({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
             readOnly={!bootComplete}
             aria-disabled={!bootComplete}
             autoComplete="off"
+            autoCapitalize="none"
+            autoCorrect="off"
             spellCheck={false}
           />
           <span className="terminal-cursor" aria-hidden="true" />
