@@ -705,10 +705,14 @@ footer {
   }
 
   .home-logo {
-    width: min(72%, 280px);
+    width: 100%;
     min-width: 0;
-    margin: 8px auto 0;
+    margin: 16px 0 0;
     padding: 0;
+  }
+
+  .home-logo img {
+    width: 100%;
   }
 
   .terminal-output {
