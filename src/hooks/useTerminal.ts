@@ -311,7 +311,7 @@ export function useTerminal(onClose: () => void) {
 
   const runCommand = useCallback(
     (rawInput: string) => {
-      const input = rawInput.trim();
+      const input = rawInput.trim().toLowerCase();
       if (!input) {
         append([{ kind: "command", text: prompt }]);
         return;
