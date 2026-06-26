@@ -407,9 +407,38 @@ h3 {
 }
 
 .roadmap-item span {
-  color: #00d4ff;
   font-family: "JetBrains Mono", SFMono-Regular, Consolas, monospace;
   font-size: 0.75rem;
+}
+
+.roadmap-item--complete span {
+  color: rgba(0, 212, 255, 0.48);
+}
+
+.roadmap-item--complete::before {
+  background: rgba(0, 212, 255, 0.35);
+}
+
+.roadmap-item--complete h3,
+.roadmap-item--complete p {
+  opacity: 0.5;
+}
+
+.roadmap-item--active span {
+  color: #00d4ff;
+}
+
+.roadmap-item--pending span {
+  color: rgba(244, 244, 239, 0.3);
+}
+
+.roadmap-item--pending::before {
+  background: rgba(244, 244, 239, 0.2);
+}
+
+.roadmap-item--pending h3,
+.roadmap-item--pending p {
+  opacity: 0.45;
 }
 
 .contact-panel {
