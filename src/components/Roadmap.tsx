@@ -13,6 +13,7 @@ export const phases = [
   ["PENDING",  "Phase 12", "Self-extending script library, GitHub candidate scout"],
   ["PENDING",  "Phase 13", "Support research bot — Reddit, whitepapers, vendor forums"],
   ["PENDING",  "Phase 14", "Memory Librarian, Open WebUI deep integration"],
+  ["PENDING",  "Phase 15", "Audio training pipeline — Whisper hot mic, scored transcript corpus ingestion"],
 ];
 
 export function Roadmap() {
