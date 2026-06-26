@@ -64,7 +64,7 @@ export const aboutOutput = [
 ];
 
 export const agentsOutput = [
-  "Seven agents. One local runtime.",
+  "Seven agents. One local runtime. One background agent keeping it honest.",
   "",
   "  Parser      classifies intent, extracts entities from the request",
   "  Scout       retrieves memory, script templates, prior context",
@@ -73,6 +73,9 @@ export const agentsOutput = [
   "  Planner     generates PowerShell or automation script",
   "  Dispatcher  executes, snapshots state before running for revert",
   "  Curator     surfaces memory candidates from the completed run",
+  "",
+  "  Untropy     watches upstream SDK releases, patches corpus before breaking changes land",
+  "              (entropy management. the name is a joke. the problem is not.)",
   "",
   "Every step is logged. Every action has a revert.",
   "Nothing executes without your sign-off.",
@@ -287,6 +290,7 @@ export const todoOutput = [
   "  [ ] score rag benchmark with opus",
   "  [ ] lock model routing table",
   "  [ ] build parser agent",
+  "  [ ] build untropy (entropy management. the name is a joke. the problem is not.)",
   "  [ ] figure out who json is",
   "  [ ] ask json about the quotes thing",
   "  [ ] sleep",
@@ -451,6 +455,7 @@ export const psAuxOutput = [
   "charles    105   0.0  0.4  planner --status=idle",
   "charles    106   0.0  0.3  dispatcher --gate=telegram --armed=false",
   "charles    107   0.1  0.2  curator --candidates=3 --pending-review",
+  "charles    108   0.0  0.1  untropy --watch=msgraph-sdk-powershell --schedule=weekly",
   "charles    999   0.0  0.0  bash (you are here)",
 ];
 

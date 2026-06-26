@@ -8,10 +8,11 @@ export const phases = [
   ["PENDING",  "Phase 7", "Telegram approval gate, Tailscale remote access"],
   ["PENDING",  "Phase 8", "Planner + Dispatcher agents, human-in-the-loop execution"],
   ["PENDING",  "Phase 9", "Foundation complete — all 7 agents operational"],
-  ["PENDING",  "Phase 10", "Expand scope: Zendesk, Teams vision, LiteLLM routing"],
-  ["PENDING",  "Phase 11", "Self-extending script library, GitHub candidate scout"],
-  ["PENDING",  "Phase 12", "Support research bot — Reddit, whitepapers, vendor forums"],
-  ["PENDING",  "Phase 13", "Memory Librarian, Open WebUI deep integration"],
+  ["PENDING",  "Phase 10", "Untropy — watches MS Graph SDK releases, patches corpus before breaking changes land"],
+  ["PENDING",  "Phase 11", "Expand scope: Zendesk, Teams vision, LiteLLM routing"],
+  ["PENDING",  "Phase 12", "Self-extending script library, GitHub candidate scout"],
+  ["PENDING",  "Phase 13", "Support research bot — Reddit, whitepapers, vendor forums"],
+  ["PENDING",  "Phase 14", "Memory Librarian, Open WebUI deep integration"],
 ];
 
 export function Roadmap() {
