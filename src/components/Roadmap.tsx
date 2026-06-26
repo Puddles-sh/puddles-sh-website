@@ -1,8 +1,8 @@
 export const phases = [
   ["COMPLETE", "Phase 1", "Hardware, OS, kernel 6.16.9, ROCm drivers, GPU memory unlock"],
   ["COMPLETE", "Phase 2", "Model benchmarking, Opus scoring, routing table drafted"],
-  ["ACTIVE",   "Phase 3", "RAG pipeline — Scout, Indexer, Qdrant, Retriever, model stack validation"],
-  ["PENDING",  "Phase 4", "Model routing locked, task-specific system prompts built"],
+  ["COMPLETE", "Phase 3", "RAG pipeline — Scout, Indexer, Qdrant, Retriever, three-model stack locked"],
+  ["ACTIVE",   "Phase 4", "Task-specific system prompts, Parser agent, production runtime"],
   ["PENDING",  "Phase 5", "First support agent — Parser, intent classification"],
   ["PENDING",  "Phase 6", "Azure Key Vault integration, credential isolation"],
   ["PENDING",  "Phase 7", "Telegram approval gate, Tailscale remote access"],
