@@ -8,13 +8,13 @@ export const phases = [
   ["COMPLETE", "Phase 7", "Telegram approval gate, risk-tiered timeouts, persistent BotListener"],
   ["COMPLETE", "Phase 8", "Planner + Dispatcher agents, audit log, snapshot/revert"],
   ["COMPLETE", "Phase 9", "Foundation complete — all 7 agents live, first production run"],
-  ["ACTIVE",   "Phase 10", "Live tuning — corpus building from real runs, script library foundation"],
-  ["PENDING",  "Phase 10", "Untropy — watches MS Graph SDK releases, patches corpus before breaking changes land"],
-  ["PENDING",  "Phase 11", "Expand scope: Zendesk, Teams vision, LiteLLM routing"],
-  ["PENDING",  "Phase 12", "Self-extending script library, GitHub candidate scout"],
-  ["PENDING",  "Phase 13", "Support research bot — Reddit, whitepapers, vendor forums"],
-  ["PENDING",  "Phase 14", "Memory Librarian, Open WebUI deep integration"],
-  ["PENDING",  "Phase 15", "Audio training pipeline — Whisper hot mic, scored transcript corpus ingestion"],
+  ["COMPLETE", "Phase 10", "Training loop closed — apply_corrections.py, SQLite audit log, DevHelper pipe, first curator script promotion, ops dashboard"],
+  ["ACTIVE",   "Phase 11", "Hardening — SSH Tailscale lockdown, local encrypted backups, dashboard backend wiring, ExchangeOnline auth"],
+  ["PENDING",  "Phase 12", "Untropy — watches MS Graph SDK releases, patches corpus before breaking changes land"],
+  ["PENDING",  "Phase 13", "Expand scope: Zendesk, Teams vision, LiteLLM routing"],
+  ["PENDING",  "Phase 14", "Self-extending script library, GitHub candidate scout"],
+  ["PENDING",  "Phase 15", "Support research bot — Reddit, whitepapers, vendor forums"],
+  ["PENDING",  "Phase 16", "Audio training pipeline — Whisper hot mic, scored transcript corpus ingestion"],
 ];
 
 export function Roadmap() {

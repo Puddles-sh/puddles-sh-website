@@ -17,11 +17,15 @@ export const features = [
   },
   {
     name: "Self-Improving Routing",
-    body: "Claude Opus scores model outputs against a rubric. Scored results train a local Scorer agent that routes requests to the best model for each task - without touching the cloud API on every run."
+    body: "A local Scorer agent rates every output on confidence and cmdlet coverage. Operator corrections feed a training loop that applies confirmed patterns back to the classifier — no cloud API required on any run."
   },
   {
-    name: "Script Library + GitHub Scout",
-    body: "A validated PowerShell library covers common Intune/Graph/Entra operations. When a task has no local match, the system searches GitHub for candidates, scores them, and surfaces the best one for your review."
+    name: "Script Library + Curator",
+    body: "Validated PowerShell scripts are promoted from candidates to a production library through a structured review flow. Once promoted, the Planner skips generation and serves the validated script directly — no hallucination risk on covered intents."
+  },
+  {
+    name: "DevHelper Training Mode",
+    body: "A separate WebUI pipe runs the full pipeline without executing anything. Use it to build corpus and validate scripts before an integration is wired. Every session generates training data automatically through normal use."
   }
 ];
 
