@@ -8,13 +8,10 @@ export const phases = [
   ["COMPLETE", "Phase 7", "Telegram approval gate, risk-tiered timeouts, persistent BotListener"],
   ["COMPLETE", "Phase 8", "Planner + Dispatcher agents, audit log, snapshot/revert"],
   ["COMPLETE", "Phase 9", "Foundation complete — all 7 agents live, first production run"],
-  ["COMPLETE", "Phase 10", "Training loop closed — apply_corrections.py, SQLite audit log, DevHelper pipe, first curator script promotion, ops dashboard"],
-  ["ACTIVE",   "Phase 11", "Hardening — SSH Tailscale lockdown, local encrypted backups, dashboard backend wiring, ExchangeOnline auth"],
-  ["PENDING",  "Phase 12", "Untropy — watches MS Graph SDK releases, patches corpus before breaking changes land"],
-  ["PENDING",  "Phase 13", "Expand scope: Zendesk, Teams vision, LiteLLM routing"],
-  ["PENDING",  "Phase 14", "Self-extending script library, GitHub candidate scout"],
-  ["PENDING",  "Phase 15", "Support research bot — Reddit, whitepapers, vendor forums"],
-  ["PENDING",  "Phase 16", "Audio training pipeline — Whisper hot mic, scored transcript corpus ingestion"],
+  ["COMPLETE", "Phase 10", "Script library + multi-operator support — 25 validated scripts covering Graph API and Exchange Online, NOC role with scoped access, two-step approval for destructive operations"],
+  ["COMPLETE", "Phase 11", "Production hardening — Tailscale network isolation, encrypted backups, ops dashboard live, Exchange Online cert-based auth"],
+  ["COMPLETE", "Phase 12", "Untropy — nightly MS Graph SDK watcher, corpus impact scanning, surfaces replacement script candidates before breaking changes reach production"],
+  ["ACTIVE",   "Phase 13", "Open source release — fork production into puddles-framework, generalize for hardware beyond EVO-X2, build deployment scripts that provision a fully running instance without requiring a local Claude session"],
 ];
 
 export function Roadmap() {

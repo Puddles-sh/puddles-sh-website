@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const LINES = [
   'puddles@sh:~$ ./puddles --init',
-  'Initializing Puddles v0.1.0...',
+  'Initializing Puddles v1.0.0...',
   'Local AI runtime: online',
   'Compliance mode: enforced',
   'Human approval gate: active',
@@ -55,7 +55,7 @@ export function Hero() {
             </p>
             <div className="hero-actions">
               <a className="button primary" href="#contact">
-                Repo Under Construction
+                Request Access
               </a>
               <a className="button secondary" href="#what">
                 Read the Docs
