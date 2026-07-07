@@ -21,9 +21,20 @@ export function Nav({ onOpenTerminal }: { onOpenTerminal: () => void }) {
           </a>
         ))}
       </nav>
-      <button className="terminal-open" type="button" onClick={onOpenTerminal}>
-        <span aria-hidden="true">&gt;_</span> Terminal
-      </button>
+      <div className="nav-actions">
+        <a
+          className="terminal-open"
+          href="https://github.com/Puddles-sh/puddles-framework"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View puddles-framework on GitHub"
+        >
+          GitHub
+        </a>
+        <button className="terminal-open" type="button" onClick={onOpenTerminal}>
+          <span aria-hidden="true">&gt;_</span> Terminal
+        </button>
+      </div>
     </header>
   );
 }

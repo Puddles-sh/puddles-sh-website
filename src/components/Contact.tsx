@@ -1,23 +1,17 @@
 export function Contact() {
-  function handleWatchlistClick() {
-    window.alert(
-      "Repo watchlist: hard hat issued. Public repo notification system is still made of sticky notes and optimism."
-    );
-  }
-
   return (
     <div className="contact-panel">
       <div>
-        <h2>Built in the open. Designed for production.</h2>
+        <h2>Open source. MIT licensed. Ready to deploy.</h2>
         <p>
-          The framework is actively developed and headed for open source. The repo is currently
-          wearing a hard hat backstage while the build gets cleaned up.
+          puddles-framework is live on GitHub. Clone it, deploy it on your own hardware,
+          and contribute scripts back to the library.
         </p>
       </div>
       <div className="contact-links">
-        <button type="button" onClick={handleWatchlistClick}>
-          Repo watchlist
-        </button>
+        <a href="https://github.com/Puddles-sh/puddles-framework" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+        </a>
         <a href="mailto:puddles.sh@gmail.com">puddles.sh@gmail.com</a>
       </div>
     </div>

@@ -14,7 +14,7 @@ export const knownCommands = [
 
 export const bootLines = [
   "puddles@sh:~$ boot",
-  "Loading Puddles OS v0.1.0...",
+  "Loading Puddles OS v1.0.0...",
   "Kernel: amdgpu/gfx1151  Memory: 128GB unified  Mode: local-only",
   "Ready. Type 'help' for available commands."
 ];
@@ -31,7 +31,7 @@ export const helpOutput = [
   "  agents          Agent pipeline overview",
   "  pipeline        How it works",
   "  roadmap         Build phases",
-  "  github          Explain why the repo is behind construction tape",
+  "  github          Open puddles-framework on GitHub",
   "  history         Command history",
   "  top             Running agent processes",
   "  clear           Clear output",
@@ -41,7 +41,7 @@ export const helpOutput = [
 ];
 
 export const readmeOutput = [
-  "# Puddles.sh",
+  "# Puddles.sh  v1.0.0",
   "",
   "Compliance-first local AI automation for IT operations.",
   "",
@@ -50,7 +50,8 @@ export const readmeOutput = [
   "Nothing executes without your sign-off.",
   "",
   "Built by an IT operator who got tired of 50-hour weeks.",
-  "Repo status: private while the sharp edges are being sanded down.",
+  "Repo: https://github.com/Puddles-sh/puddles-framework",
+  "License: MIT",
 ];
 
 export const aboutOutput = [

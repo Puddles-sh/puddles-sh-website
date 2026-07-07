@@ -96,6 +96,12 @@ input {
   color: #00d4ff;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .terminal-open {
   display: inline-flex;
   align-items: center;
@@ -618,6 +624,11 @@ footer {
 @media (max-width: 900px) {
   .site-nav {
     grid-template-columns: 1fr auto;
+  }
+
+  .nav-actions {
+    grid-row: 1;
+    grid-column: 2;
   }
 
   .site-nav nav {

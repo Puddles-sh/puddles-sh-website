@@ -334,12 +334,12 @@ export function useTerminal(onClose: () => void) {
       const output = (text: string, kind: TerminalLine["kind"] = "output") => ({ kind, text });
 
       if (input === "github") {
+        window.open("https://github.com/Puddles-sh/puddles-framework", "_blank", "noopener,noreferrer");
         append([
           commandLine,
-          output("repo status: under construction"),
-          output("The GitHub door is installed. The handle is not."),
-          output("Public release happens after the build stops looking like it was assembled during a caffeine incident."),
-          output("For early access, email puddles.sh@gmail.com and ask for the hard-hat tour.")
+          output("opening https://github.com/Puddles-sh/puddles-framework"),
+          output("puddles-framework v1.0.0 — MIT license"),
+          output("clone it, deploy it, contribute scripts back."),
         ]);
         return;
       }
