@@ -68,13 +68,17 @@ export default function App() {
         <Section id="what" eyebrow="What is Puddles" title="Seven agents. One local runtime.">
           <div className="copy-columns">
             <p>
-              Puddles is a seven-agent orchestration framework that runs entirely on your hardware.
-              It parses IT requests, retrieves relevant context, audits proposed actions for accuracy,
-              scores confidence and risk, generates a PowerShell or automation script, gets your
-              approval via Telegram, and executes - with a full audit trail and a revert on every
-              action.
+              Puddles provides secure local AI infrastructure and software implementation services
+              for IT teams, MSPs, and organizations that cannot use public cloud AI. Everything
+              runs on your hardware — models, context retrieval, script execution, and audit logs.
+              Nothing leaves your network.
             </p>
-            <p>No cloud. No third-party AI processing your client data. No black box.</p>
+            <p>
+              Services include local AI system design, private model orchestration, AI workflow
+              automation, documentation search, memory governance, and IT support tooling. The
+              framework handles the repeatable operational work — with a mandatory human approval
+              gate before anything executes.
+            </p>
           </div>
         </Section>
         <Section id="how" eyebrow="How It Works" title="A visible path from request to revert.">
