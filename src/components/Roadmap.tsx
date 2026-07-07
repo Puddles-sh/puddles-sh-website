@@ -12,7 +12,7 @@ export const phases = [
   ["COMPLETE", "Phase 11", "Production hardening — Tailscale network isolation, encrypted backups, ops dashboard live, Exchange Online cert-based auth"],
   ["COMPLETE", "Phase 12", "Untropy — nightly MS Graph SDK watcher, corpus impact scanning, surfaces replacement script candidates before breaking changes reach production"],
   ["COMPLETE", "Phase 13", "Open source release — puddles-framework live on GitHub under MIT license, generalized for any hardware, full deployment tooling including setup.sh, health_check.py, and hardened security review"],
-  ["PLANNED",  "Phase 14", "Multi-tenancy — per-client vault paths, tenant-scoped model routing, isolated audit logs, and a single EVO instance serving multiple client tenants without credential cross-contamination"],
+  ["PLANNED",  "Phase 14", "Multi-tenancy — per-client vault paths, tenant-scoped model routing, isolated audit logs, and a single local instance serving multiple client tenants without credential cross-contamination"],
 ];
 
 export function Roadmap() {
