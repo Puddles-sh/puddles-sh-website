@@ -68,16 +68,19 @@ export default function App() {
         <Section id="what" eyebrow="What is Puddles" title="Seven agents. One local runtime.">
           <div className="copy-columns">
             <p>
-              Puddles provides secure local AI infrastructure and software implementation services
-              for IT teams, MSPs, and organizations that cannot use public cloud AI. Everything
-              runs on your hardware — models, context retrieval, script execution, and audit logs.
-              Nothing leaves your network.
+              PUDDLES provides secure local AI software and workflow systems for IT operations.
+              Everything runs on your hardware — models, context retrieval, script execution, and
+              audit logs. Nothing leaves your network.
+            </p>
+            <p>
+              We specialize in the design and development of private AI software for organizations
+              that cannot use public cloud AI — healthcare, legal, financial services, and government
+              clients where tenant data must stay on-premises.
             </p>
             <p>
               Services include local AI system design, private model orchestration, AI workflow
-              automation, documentation search, memory governance, and IT support tooling. The
-              framework handles the repeatable operational work — with a mandatory human approval
-              gate before anything executes.
+              automation, and IT support tooling — with a mandatory human approval gate before
+              anything executes.
             </p>
           </div>
         </Section>

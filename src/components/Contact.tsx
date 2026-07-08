@@ -36,6 +36,13 @@ export function Contact() {
           setup.sh, and have a working local AI pipeline in an afternoon. No cloud
           accounts, no SaaS fees, no data leaving your network.
         </p>
+        <ul className="contact-card-checklist">
+          <li>MIT licensed — use it, fork it, modify it</li>
+          <li>30+ validated PowerShell scripts across Graph, Exchange, Defender, and Teams</li>
+          <li>Human approval gate built in — cannot be configured away</li>
+          <li>Full audit trail on every run, every decision, every action</li>
+          <li>Multi-tenant — one instance, isolated config and audit log per client</li>
+        </ul>
         <div className="contact-card-actions">
           <a
             className="button primary"
