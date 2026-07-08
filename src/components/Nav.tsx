@@ -12,7 +12,7 @@ export function Nav({ onOpenTerminal }: { onOpenTerminal: () => void }) {
     <header className="site-nav">
       <a className="brand" href="#top" aria-label="Puddles home">
         <img src="/puddleslogo.png" alt="" />
-        <span>Puddles.sh</span>
+        <span>Puddles™.sh</span>
       </a>
       <nav aria-label="Primary navigation">
         {navItems.map((item) => (

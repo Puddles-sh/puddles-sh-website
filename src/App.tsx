@@ -68,7 +68,7 @@ export default function App() {
         <Section id="what" eyebrow="What is Puddles" title="Seven agents. One local runtime.">
           <div className="copy-columns">
             <p>
-              PUDDLES provides secure local AI software and workflow systems for IT operations.
+              PUDDLES™ provides secure local AI software and workflow systems for IT operations.
               Everything runs on your hardware — models, context retrieval, script execution, and
               audit logs. Nothing leaves your network.
             </p>
@@ -126,7 +126,7 @@ export default function App() {
         </section>
       </main>
       <footer>
-        <p>Puddles.sh - Local AI that works for IT.</p>
+        <p>Puddles™.sh — Local AI that works for IT.</p>
       </footer>
       <Terminal isOpen={isTerminalOpen} onClose={() => setIsTerminalOpen(false)} />
     </div>
