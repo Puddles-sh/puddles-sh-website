@@ -29,15 +29,15 @@ export function Contact() {
     <div className="contact-split">
 
       <div className="contact-card">
-        <p className="eyebrow">Open Source</p>
+        <p className="eyebrow">Source-Available</p>
         <h2 className="contact-card-heading">Self-host on your hardware.</h2>
         <p className="contact-card-body">
-          puddles-framework is MIT licensed and ready to deploy. Clone it, run
+          puddles-framework is source-available and ready to deploy. Clone it, run
           setup.sh, and have a working local AI pipeline in an afternoon. No cloud
           accounts, no SaaS fees, no data leaving your network.
         </p>
         <ul className="contact-card-checklist">
-          <li>MIT licensed — use it, fork it, modify it</li>
+          <li>Source-available — read it, self-host it, audit it, modify it. Free for any use except building a competing product</li>
           <li>30+ validated PowerShell scripts across Graph, Exchange, Defender, and Teams</li>
           <li>Human approval gate built in — cannot be configured away</li>
           <li>Full audit trail on every run, every decision, every action</li>

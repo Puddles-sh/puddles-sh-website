@@ -187,7 +187,7 @@ Render as a vertical timeline or phase list:
 
 **Headline:** Built in the open. Designed for production.
 
-The framework is open source and actively developed.
+The framework is source-available (PolyForm Shield 1.0.0) and actively developed.
 Star the repo, follow the build, or reach out if you're building something similar.
 
 - GitHub: https://github.com/Puddles-sh/ai-runtime-starter
