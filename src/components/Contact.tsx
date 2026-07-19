@@ -29,38 +29,19 @@ export function Contact() {
     <div className="contact-split">
 
       <div className="contact-card">
-        <p className="eyebrow">Source-Available</p>
-        <h2 className="contact-card-heading">Self-host on your hardware.</h2>
+        <p className="eyebrow">Self-Hosted</p>
+        <h2 className="contact-card-heading">Runs on your hardware.</h2>
         <p className="contact-card-body">
-          puddles-framework is source-available and ready to deploy. Clone it, run
-          setup.sh, and have a working local AI pipeline in an afternoon. No cloud
-          accounts, no SaaS fees, no data leaving your network.
+          Puddles runs on infrastructure you own — local inference, your Key Vault,
+          your audit log. We deploy it, tune it to your environment, and operate it.
+          Your team writes requests in plain English and approves the work.
         </p>
         <ul className="contact-card-checklist">
-          <li>Source-available — read it, self-host it, audit it, modify it. Free for any use except building a competing product</li>
-          <li>30+ validated PowerShell scripts across Graph, Exchange, Defender, and Teams</li>
+          <li>39 validated PowerShell scripts across Graph, Exchange, Defender, and Teams</li>
           <li>Human approval gate built in — cannot be configured away</li>
           <li>Full audit trail on every run, every decision, every action</li>
           <li>Multi-tenant — one instance, isolated config and audit log per client</li>
         </ul>
-        <div className="contact-card-actions">
-          <a
-            className="button primary"
-            href="https://github.com/Puddles-sh/puddles-framework"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View on GitHub
-          </a>
-          <a
-            className="button secondary"
-            href="https://github.com/Puddles-sh/puddles-framework/blob/main/PREINSTALL.md"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Pre-install checklist
-          </a>
-        </div>
       </div>
 
       <div className="contact-card">

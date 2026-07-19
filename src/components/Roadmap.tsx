@@ -11,7 +11,6 @@ export const phases = [
   ["COMPLETE", "Phase 10", "Script library + multi-operator support — 25 validated scripts covering Graph API and Exchange Online, NOC role with scoped access, two-step approval for destructive operations"],
   ["COMPLETE", "Phase 11", "Production hardening — Tailscale network isolation, encrypted backups, ops dashboard live, Exchange Online cert-based auth"],
   ["COMPLETE", "Phase 12", "Untropy — nightly MS Graph SDK watcher, corpus impact scanning, surfaces replacement script candidates before breaking changes reach production"],
-  ["COMPLETE", "Phase 13", "Public source release — puddles-framework live on GitHub, generalized for any hardware, full deployment tooling including setup.sh, health_check.py, and hardened security review"],
   ["COMPLETE", "Phase 14", "Multi-tenancy — per-client vault paths, isolated audit logs, systemd template units, and a single local instance serving multiple client tenants without credential cross-contamination"],
 ];
 

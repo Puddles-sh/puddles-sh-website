@@ -207,7 +207,6 @@ const baseCommands = [
   "about",
   "features",
   "roadmap",
-  "github",
   "clear",
   "exit",
   "sudo",
@@ -332,17 +331,6 @@ export function useTerminal(onClose: () => void) {
 
       const commandLine = { kind: "command" as const, text: `${prompt} ${input}` };
       const output = (text: string, kind: TerminalLine["kind"] = "output") => ({ kind, text });
-
-      if (input === "github") {
-        window.open("https://github.com/Puddles-sh/puddles-framework", "_blank", "noopener,noreferrer");
-        append([
-          commandLine,
-          output("opening https://github.com/Puddles-sh/puddles-framework"),
-          output("puddles-framework v1.0.0 — MIT license"),
-          output("clone it, deploy it, contribute scripts back."),
-        ]);
-        return;
-      }
 
       if (input === "hack") {
         append([commandLine, output("Starting local visual diagnostic...")]);
